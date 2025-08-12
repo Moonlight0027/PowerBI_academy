@@ -1,4 +1,9 @@
 ## Lesson 2  
+
+**Notes before doing the tasks:**
+**Scoring is based on the correct output.**
+**One correct solution is sufficient.**
+
 **Topic:** Importing Data into Power BI  
 **Prerequisites:** Download Sales_Data.csv file  
 
@@ -6,17 +11,23 @@
 2. What is the first step to import data into Power BI Desktop?  
 3. How do you refresh imported data in Power BI?  
 4. What file formats can Power BI import directly? (Name two.)  
-5. What does the "Navigator" window show after selecting a data source?  
-6. Import Sales_Data.csv and load only the "Product" and "Price" columns.  
-7. How would you change OrderDate to a date format during import?  
-8. What is the difference between "Load" and "Transform Data" in the import dialog?  
+5. What does the "Navigator" window show after selecting a data source?
+6. What is the difference between "Load" and "Transform Data" in the import dialog? 
+7. What is Power Query Editor? How to open it and why we use it?
+8. Import Sales_Data.csv and load only the "Product" and "Price" columns using Power Query Editor.
 9. Why might you see an error when connecting to a SQL database? (Name one reason.)  
-10. How do you replace a data source after importing it?  
-11. Write the M-code to import only rows where Quantity > 1.  
-12. How would you change the data source if Sales_Data.csv changed?  
-13. Troubleshoot: Your CSV import fails due to a "mixed data type" error—how do you fix it?  
-14. Connect to a live SQL database with parameters (e.g., filter by year).  
-15. How would you automate data imports using Power BI and Power Automate?
+10. How would you change OrderDate to a date format during import?  
+11. How do you replace a data source after importing it?
+12. Why might you see an error when connecting to a SQL database? (Name one reason.)  
+13. How do you replace a data source after importing it?  
+14. What is the difference between "transpose table" and "pivot table"   
+15. What is the purpose of the "Applied Steps" pane in Power Query?
+16. What is the difference between duplicate query and reference query?
+17. Remove all rows where Quantity is less than 2.
+18. Split the OrderDate column into separate "Year," "Month," and "Day" columns.
+19. Replace all "Mouse" entries in the Product column with "Computer Mouse."
+20. Create a conditional column: Label orders as "High Value" if Price > 100.
+21. Group the table by CustID to show total spending per customer.
 
 ```Sales_Data```
 | OrderID | Product  | Quantity | Price | OrderDate |
